@@ -126,7 +126,7 @@
     ```
 3. **Capture Image**
     <p align="center">
-        <img src = "Images/LogFile.png", width="100%">
+        <img src = "Images_for_README/LogFile.png", width="100%">
     </p>
 
 --------------------------------------------
@@ -154,7 +154,7 @@
         ```
 4. **Capture Image**
     <p align="center">
-        <img src = "Images/Sentry.png", width="100%">
+        <img src = "Images_for_README/Sentry.png", width="100%">
     </p>
     
 --------------------------------------------
