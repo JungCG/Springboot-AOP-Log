@@ -1,0 +1,8 @@
+[2021-08-23 15:33:02:1568762][http-nio-8090-exec-2] WARN  com.jcg.AopLog.config.BindingAdvice - com.jcg.AopLog.web.UserController.save() => 필드 : username, 메시지 : 유저네임 길이를 초과하였습니다.
+[2021-08-23 15:37:28:1835675][http-nio-8090-exec-5] WARN  com.jcg.AopLog.config.BindingAdvice - com.jcg.AopLog.web.UserController.save() => 필드 : username, 메시지 : 유저네임 길이를 초과하였습니다.
+[2021-08-23 15:38:19:1885837][http-nio-8090-exec-2] WARN  com.jcg.AopLog.config.BindingAdvice - com.jcg.AopLog.web.UserController.save() => 필드 : username, 메시지 : 유저네임 길이를 초과하였습니다.
+[2021-08-23 15:42:35:2141735][http-nio-8090-exec-2] WARN  com.jcg.AopLog.config.BindingAdvice - com.jcg.AopLog.web.UserController.save() => 필드 : username, 메시지 : 유저네임 길이를 초과하였습니다.
+[2021-08-23 15:43:49:2215720][http-nio-8090-exec-2] WARN  com.jcg.AopLog.config.BindingAdvice - com.jcg.AopLog.web.UserController.save() => 필드 : username, 메시지 : 유저네임 길이를 초과하였습니다.
+[2021-08-23 15:44:03:2230409][http-nio-8090-exec-3] WARN  com.jcg.AopLog.config.BindingAdvice - com.jcg.AopLog.web.UserController.save() => 필드 : username, 메시지 : 유저네임 길이를 초과하였습니다.
+[2021-08-23 16:05:52:3539388][http-nio-8090-exec-2] WARN  com.jcg.AopLog.config.BindingAdvice - com.jcg.AopLog.web.UserController.save() => 필드 : username, 메시지 : 유저네임 길이를 초과하였습니다.
+[2021-08-23 16:06:36:3583018][http-nio-8090-exec-3] WARN  com.jcg.AopLog.config.BindingAdvice - com.jcg.AopLog.web.UserController.save() => 필드 : username, 메시지 : 유저네임 길이를 초과하였습니다.
