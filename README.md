@@ -133,7 +133,7 @@
 
 ## Sentry
 1. **Sentry : 어플리케이션에서 오류가 발생하면 알려주는 에러 트래킹 서비스**
-    - ****파일로 저장할 경우 파일을 열어봐야 로그를 확인할 수 있는 반면 Sentry를 이용하면 Web에서 실시간으로 확인이 가능하다.**
+    - **파일로 저장할 경우 파일을 열어봐야 로그를 확인할 수 있는 반면 Sentry를 이용하면 Web에서 실시간으로 확인이 가능하다.**
 2. Spring boot에서 Sentry 사용 [Docs](https://docs.sentry.io/platforms/java/guides/spring-boot/)
 3. **설정 순서**
     1. **Dependency** 설정
@@ -148,7 +148,7 @@
         ```java
         sentry.dsn={dsn 값}
         ```
-    3. ****Sentry로 메세지 보내기**
+    3. **Sentry로 메세지 보내기**
         ```java
         Sentry.captureMessage(type+"."+method+"() => 필드 : "+error.getField()+", 메시지 : "+error.getDefaultMessage());
         ```

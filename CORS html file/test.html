@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<button onClick="request()">요청하기</button>    
+<script>   
+    function request(){
+        alert("요청함");
+
+        var data = {
+            username:"jcg1",
+            password:"1234",
+            phone:"01011112222"
+        }
+
+        $.ajax({
+            type:"post",
+            url:"http://localhost:8090/user",
+            data:JSON.stringify(data),
+            contentType:"application/json; charset=utf-8",
+            dataType:"json"
+        }).done(function(result){
+            console.log(result);
+        });
+    }
+ 
+</script>
+</body>
+</html>
